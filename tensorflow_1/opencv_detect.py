@@ -90,7 +90,7 @@ def args_parser():
                         default=default_labels)
     parser.add_argument('--top_k', type=int, default=10,
                         help='number of categories with highest score to display')
-    parser.add_argument('--camera_id', type=int, help='Index of which video source to use. ', default = 0)
+    parser.add_argument('--camera_id', type=int, help='Index of which video source to use. ', default=1)
     parser.add_argument('--threshold', type=float, default=0.1,
                         help='classifier score threshold')
     parser.add_argument('--print', action='store_true', default=False, help='print detections')
